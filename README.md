@@ -20,4 +20,10 @@
 <a href='https://express-pairing-code2.onrender.com/' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id_2-100000?style=for-the-badge&logo=scan&logoColor=black&labelColor=white&color=white'/></a>
     <br>
 
+# SCAN QR CODE (SERVER 3)
+
+ <br>
+<a href='https://github.com/javiel632/ANGEL_MD' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
+
 # DEPLOYMENT
