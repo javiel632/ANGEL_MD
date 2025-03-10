@@ -9,7 +9,7 @@ zokou({
   'nomCom': "ping",
   'desc': "To check bot response time",
   'Categorie': "General",
-  'reaction': '🧋',
+  'reaction': '❄️',
   'fromMe': "true"
 }, async (_0x4cfdc6, _0x41d5d3, _0x546e3d) => {
   const {
@@ -18,26 +18,26 @@ zokou({
   const _0x5a815c = Array.from({
     'length': 0x3
   }, () => Math.floor(Math.random() * 10000 + 1000));
-  const _0x451c3b = _0x5a815c.map(_0x526b71 => "🧋 PONG: " + _0x526b71 + " 🧋").join("\n");
+  const _0x451c3b = _0x5a815c.map(_0x526b71 => "❄️ PONG: " + _0x526b71 + " ❄️").join("\n");
   const _0x41d2b1 = {
     'externalAdReply': {
-      'title': "Popkid_Md  Ultra Speed Response",
+      'title': "angle_Md  Ultra Speed Response",
       'body': "Ping Results : " + _0x451c3b,
-      'sourceUrl': "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
-      'thumbnailUrl': "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg",
+      'sourceUrl': "https://whatsapp.com/channel/0029Vb4gdvmC6ZvcBXmSGz1e",
+      'thumbnailUrl': "https://i.ibb.co/1cFZfBT/images-19.jpg",
       'mediaType': 0x1,
       'showAdAttribution': true
     }
   };
   const _0x54ea81 = {
-    'displayName': "POPKID MD Support",
-    'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:POPKID MD\nORG:POPKID MD Nexus;\nTEL;type=CELL;type=VOICE;waid=254111385747:+254 111 385 747\nEND:VCARD"
+    'displayName': "ANGLE MD Support",
+    'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:ANGLE MD\nORG:ANGLE MD Nexus;\nTEL;type=CELL;type=VOICE;waid=254112167030:+254 112167030\nEND:VCARD"
   };
   await _0x41d5d3.sendMessage(_0x4cfdc6, {
-    'text': "🧋 *𝐏𝐨𝐩𝐤𝐢𝐝-𝐗𝐭𝐞𝐜𝐡* 🧋",
+    'text': "🦋 *javiel-dev* ❄️",
     'contextInfo': _0x41d2b1,
     'contacts': {
-      'displayName': "POPKID MD Verified Contact",
+      'displayName': "javiel MD Verified Contact",
       'contacts': [_0x54ea81]
     },
     'quoted': _0x2c968b
@@ -48,7 +48,7 @@ zokou({
   'nomCom': "uptime",
   'desc': "To check runtime",
   'Categorie': "General",
-  'reaction': '🧋',
+  'reaction': '❄️',
   'fromMe': "true"
 }, async (_0x205206, _0x161605, _0x2fdaee) => {
   const {
@@ -59,23 +59,23 @@ zokou({
   const _0x2f3abc = new Date(_0x766aaf * 1000).toISOString().substr(11, 8);
   const _0xae590 = {
     'externalAdReply': {
-      'title': "POPKID MD - System Uptime",
+      'title': "angle MD - System Uptime",
       'body': "Bot has been running for: " + _0x2f3abc,
-      'sourceUrl': "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
-      'thumbnailUrl': "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg",
+      'sourceUrl': "https://whatsapp.com/channel/0029Vb4gdvmC6ZvcBXmSGz1e",
+      'thumbnailUrl': "https://i.ibb.co/1cFZfBT/images-19.jpg",
       'mediaType': 0x1,
       'showAdAttribution': true
     }
   };
   const _0x297b69 = {
-    'displayName': "POPKID MD Support",
-    'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:POPKID MD\nORG:POPKID MD Nexus;\nTEL;type=CELL;type=VOICE;waid=254111385747:+254 111 385 747\nEND:VCARD"
+    'displayName': "ANGLE MD Support",
+    'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:ANGLE MD\nORG:ANGLE MD Nexus;\nTEL;type=CELL;type=VOICE;waid=254112167030:+254 112167030\nEND:VCARD"
   };
   await _0x161605.sendMessage(_0x205206, {
     'text': "*POPKID MD UPTIME* " + _0x2f3abc,
     'contextInfo': _0xae590,
     'contacts': {
-      'displayName': "POPKID MD Verified Contact",
+      'displayName': "ANGLE MD Verified Contact",
       'contacts': [_0x297b69]
     },
     'quoted': _0x4e9ae0
