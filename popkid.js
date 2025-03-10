@@ -48,7 +48,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/POPKID-MD;;;=>/g,"");
+var session = conf.session.replace(/ANGLE-MD;;;=>/g,"");
 const prefixe = conf.PREFIXE;
 
 
@@ -81,7 +81,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['POPKID-MD', "safari", "1.0.0"],
+            browser: ['ANGLE-MD', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -132,7 +132,7 @@ function getCurrentDateTime() {
 setInterval(async () => {
     if (conf.AUTO_BIO === "yes") {
         const currentDateTime = getCurrentDateTime(); // Get the current date and time
-        const bioText = `👻 ᴘᴏᴘᴋɪᴅ x-ᴛᴇᴄʜ 👻 ɪs ᴏɴʟɪɴᴇ : ${currentDateTime}`; // Format the bio text
+        const bioText = `angle-md is online 🦋❤️ : ${currentDateTime}`; // Format the bio text
         await zk.updateProfileStatus(bioText); // Update the bio
         console.log(`Updated Bio: ${bioText}`); // Log the updated bio
     }
@@ -1357,11 +1357,11 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg =`      ╭─────────────━┈⊷ 
 │ *ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʜ ʙᴏᴛ*
- |─────────────━┈⊷
-│ᴘʀᴇғɪx: * [ ${prefix} *
-│ᴍᴏᴅᴇ: * ${mode}*
-│ʙᴏᴛ ɴᴀᴍᴇ: *ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʜ*
-│ᴏᴡɴᴇʀ : *ᴘᴏᴘᴋɪᴅ😇*
+|─────────────━┈⊷
+│prefix: * [ ${prefix} *
+│mode: * ${mode}*
+│bot type: *angle-MD*
+│developer: *javiel❄️*
 ╰─────────────━┈⊷⁠⁠⁠⁠`;
                 await zk.sendMessage( zk.user.id, { text: cmsg });
                 }
