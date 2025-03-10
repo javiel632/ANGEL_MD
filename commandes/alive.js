@@ -8,24 +8,24 @@ zokou(
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg"; // Full image URL
-    const smallThumbnailUrl = "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg"; // Small thumbnail URL
-    const randomAudio = "https://files.catbox.moe/wdap4t.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l"; // Channel link
+    const fullImageUrl = "https://i.ibb.co/1cFZfBT/images-19.jpg"; // Full image URL
+    const smallThumbnailUrl = "https://i.ibb.co/1cFZfBT/images-19.jpg"; // Small thumbnail URL
+    const randomAudio = "https://files.catbox.moe/sdl3kg.mp3"; // Voice note URL
+    const sourceUrl = "https://whatsapp.com/channel/0029Vb4gdvmC6ZvcBXmSGz1e"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
       // Send the custom message
       await zk.sendMessage(dest, {
         image: { url: fullImageUrl }, // Full image displayed at the top
-        caption: `💫 Always Active 🐞\n\n✨ Contact: ${contactName}\n🙏 [Visit Channel](${sourceUrl})`,
+        caption: `💫 Always Active ❄️\n\n✨ Contact: ${contactName}\n🙏 [Visit Channel](${sourceUrl})`,
         audio: { url: randomAudio }, // Voice note URL
         mimetype: "audio/mpeg", // Correct MIME type for audio
         ptt: true, // Send as a voice note
         contextInfo: {
           externalAdReply: {
-            title: `💦 Message from: ${contactName}\n⚙️popkid Md Alive⚙️`, // Your contact in WhatsApp status format
-            body: "Yoh don't disturb am active🥱 Tap here",
+            title: `💦 Message from: ${contactName}\n🦋angle Md Alive❄️`, // Your contact in WhatsApp status format
+            body: "hello don't disturb am active🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
             renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
@@ -55,24 +55,24 @@ zokou(
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg"; // Full image URL
-    const smallThumbnailUrl = "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg"; // Small thumbnail URL
-    const randomAudio = "https://files.catbox.moe/wdap4t.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l"; // Channel link
+    const fullImageUrl = "https://i.ibb.co/1cFZfBT/images-19.jpg"; // Full image URL
+    const smallThumbnailUrl = "https://i.ibb.co/1cFZfBT/images-19.jpg"; // Small thumbnail URL
+    const randomAudio = "https://files.catbox.moe/sdl3kg.mp3"; // Voice note URL
+    const sourceUrl = "https://whatsapp.com/channel/0029Vb4gdvmC6ZvcBXmSGz1e"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
       // Send the custom message
       await zk.sendMessage(dest, {
         image: { url: fullImageUrl }, // Full image displayed at the top
-        caption: `🧋 Always Active 🧋\n\n🎙️ Contact: ${contactName}\n🎙️ [Visit Channel](${sourceUrl})`,
+        caption: `🦋 Always Active ❄️\n\n🎙️ Contact: ${contactName}\n🎙️ [Visit Channel](${sourceUrl})`,
         audio: { url: randomAudio }, // Voice note URL
         mimetype: "audio/mpeg", // Correct MIME type for audio
         ptt: true, // Send as a voice note
         contextInfo: {
           externalAdReply: {
             title: `🌟 Message from: ${contactName}\n⚙️ popkid Md Alive ⚙️`, // Your contact in WhatsApp status format
-            body: "Yoh don't disturb am active🥱 Tap here",
+            body: "Hello don't disturb am active🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
             renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
