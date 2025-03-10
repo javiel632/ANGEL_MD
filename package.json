@@ -3,26 +3,26 @@
 
 
 {
-  "name": "Popkid-md",
+  "name": "Angle-md",
   "version": "2.0.0",
   "description": "",
-  "main": "popkid.js",
+  "main": "angle.js",
   "scripts": {
     "test": "node popkid.js",
-    "s": "node popkid.js",
-    "toshtech": "pm2 start popkid.js --attach",
-    "toshtech": "pm2 start popkid.js --attach",
+    "s": "node angle.js",
+    "toshtech": "pm2 start angle.js --attach",
+    "toshtech": "pm2 start angle.js --attach",
     "c": "tsc"
   },
   "keywords": [
     "bot",
     "Baileys",
-    "Popkid-md",
+    "angle-md",
     "whatsapp",
     "whatsapp-bot",
-    "popkid-md-boy"
+    "angle-md"
   ],
-  "author": "Popkid",
+  "author": "Javiel",
 "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
