@@ -6,12 +6,12 @@ const { default: axios } = require('axios');
 
 
 
-zokou({nomCom:"popkid",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"angle",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("🐞HI IT'S YOUR FAVORITE DEVELOPER POPKID🧋.")}
+    {return repondre("🦋HI IT'S YOUR FAVORITE DEVELOPER javiel❄️.")}
     //var quest = arg.join(' ');
   try{
     
