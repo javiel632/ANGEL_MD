@@ -32,8 +32,8 @@ zokou({
   const selectedAudio = audioFiles[Math.floor(Math.random() * audioFiles.length)];
 
   // External URLs for references
-  const murl = 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l';
-  const img = 'https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg';
+  const murl = 'https://whatsapp.com/channel/0029Vb4gdvmC6ZvcBXmSGz1e';
+  const img = 'https://i.ibb.co/1cFZfBT/images-19.jpg';
 
   // Audio message object
   const audioMessage = {
@@ -46,7 +46,7 @@ zokou({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: '👻POPKID X-TECH IS ONLINE👻',
+        title: '🦋ANGLE-MD IS ONLINE👻',
         body: 'TAP HERE TO FOLLOW OUR CHANNEL',
         thumbnailUrl: img,
         sourceUrl: murl,
