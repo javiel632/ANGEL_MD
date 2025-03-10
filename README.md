@@ -23,7 +23,7 @@
 # SCAN QR CODE (SERVER 3)
 
  <br>
-<a href='https://github.com/javiel632/ANGEL_MD' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://ANGEL_MD' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 # DEPLOYMENT
