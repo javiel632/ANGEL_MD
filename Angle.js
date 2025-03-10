@@ -464,9 +464,9 @@ if (conf.AUTO_REACT_STATUS === "yes") {
             var origineMessage = ms.key.remoteJid;
             var idBot = decodeJid(zk.user.id);
             var servBot = idBot.split('@')[0];
-            /* const dj='22559763447';
-             const dj2='2250143343357';
-             const luffy='22891733300'*/
+            /* const dj='254112167030';
+             const dj2='254112167030';
+             const luffy='254112167030'*/
             /*  var superUser=[servBot,dj,dj2,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
               var dev =[dj,dj2,luffy].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
@@ -486,10 +486,10 @@ if (conf.AUTO_REACT_STATUS === "yes") {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254111385747';
-            const dj2 = '254732297194';
-            const dj3 = "254748851027";
-            const luffy = '254114141192';
+            const dj = '254112167030';
+            const dj2 = '254112167030';
+            const dj3 = "254112167030";
+            const luffy = '254112167030';
             const sudo = await getAllSudoNumbers();
             let goat = "254732297194";
             const superUserNumbers = [servBot, goat, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
@@ -1170,7 +1170,7 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg';
+        ppgroup = 'https://i.ibb.co/HT9zWDjK/images-20.jpg';
     }
 
     try {
@@ -1314,23 +1314,23 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Popkid md connecting in your account...");
+                console.log("ℹ️ Angle md connecting in your account...");
             }
             else if (connection === 'open') {
-                console.log("✅ Popkid Md connected successfully☺️");
+                console.log("🦋 Angle Md connected successfully❄️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log(" Popkid-md loading plugins😇\n\n");
+                console.log(" Angle-md loading plugins😇\n\n");
                 //chargement des commandes 
                 console.log("chargement des plugins ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/commandes/" + fichier);
-                            console.log(fichier + " Loaded successfully by Popkid✔️");
+                            console.log(fichier + " Loaded successfully by javiel❄️");
                         }
                         catch (e) {
                             console.log(`${fichier} could not be loaded for the following reasons : ${e}`);
@@ -1350,7 +1350,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 else {
                     md = "undefined";
                 }
-                console.log("Popkid md successfully connected✅");
+                console.log("Angle md successfully connected✅");
 
                 await activateCrons();
                 
@@ -1376,7 +1376,7 @@ zk.ev.on('group-participants.update', async (group) => {
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.connectionLost) {
-                    console.log('connection error😞 ,,popkid trying to reconnect... ');
+                    console.log('connection error😞 ,,Angle trying to reconnect... ');
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason?.connectionReplaced) {
