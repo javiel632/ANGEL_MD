@@ -6,7 +6,7 @@
 # Fork the repo
    
 <br>
-<a href='https://github.com/javiel632/ANGEL_MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=black&labelColor=white&color=white'/></a>
+<a href='https://github.com/javiel632/ANGEL_MD' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=black&labelColor=white&color=white'/></a>
     <br>
 
 # Get Session ID (SERVER 1)
