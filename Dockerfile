@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Popkiddevs/POPKID-XTECH  /root/Popkid
-WORKDIR /root/popkid/
+RUN git clone https://github.com/javiel632/ANGEL_MD  /root/angle
+WORKDIR /root/angle/
 
 
 COPY package.json .
