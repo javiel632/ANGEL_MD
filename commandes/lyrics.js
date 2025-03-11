@@ -42,7 +42,7 @@ zokou({
 
         // Format the message to send to the user
         const formattedMessage = `
-*POPKID X-TECH LYRICS FINDER*
+*ANGLE-MD LYRICS FINDER*
 *Title:* ${title}
 *Artist:* ${artist}
 
