@@ -71,7 +71,7 @@ zokou(
         ptt: true, // Send as a voice note
         contextInfo: {
           externalAdReply: {
-            title: `🌟 Message from: ${contactName}\n⚙️ popkid Md Alive ⚙️`, // Your contact in WhatsApp status format
+            title: `🌟 Message from: ${contactName}\nangle md is alive ❄️`, // Your contact in WhatsApp status format
             body: "Hello don't disturb am active🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
