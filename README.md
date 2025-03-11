@@ -3,11 +3,6 @@
 ![An illustration showing a variety of differently themed Octocats. Monuments from different cities are indicated in the background like the Space Needle, Berlin Fernsehturm and Transamerica Pyramid.](https://i.ibb.co/TMN2p0RW/Picsart-25-03-08-17-27-26-214.jpg)
 
 
-# Fork the repo
-   
-<br>
-<a href='https://javiel632/ANGEL_MD' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=black&labelColor=white&color=white'/></a>
-    <br>
 
 # Get Session ID (SERVER 1)
  
