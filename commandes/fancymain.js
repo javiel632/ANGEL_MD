@@ -1,5 +1,5 @@
 const { zokou } = require("../framework/zokou");
-const fancy = require("../Popkid/style");
+const fancy = require("../javiel/style");
 
 zokou({ nomCom: "fancy", categorie: "Fun", reaction: "〽️" }, async (dest, zk, commandeOptions) => {
     const { arg, repondre, prefixe } = commandeOptions;
@@ -8,7 +8,7 @@ zokou({ nomCom: "fancy", categorie: "Fun", reaction: "〽️" }, async (dest, zk
 
     try {
         if (id === undefined || text === undefined) {
-            return await repondre(`\nExemple : ${prefixe}fancy 10 popkid-Md\n` + String.fromCharCode(8206).repeat(4001) + fancy.list('POPKID-MD', fancy));
+            return await repondre(`\nExemple : ${prefixe}fancy 10 angle-md\n` + String.fromCharCode(8206).repeat(4001) + fancy.list('ANGLE-MD', fancy));
         }
 
         const selectedStyle = fancy[parseInt(id) - 1];
