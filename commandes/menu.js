@@ -28,7 +28,7 @@ const runtime = function (seconds) {
 // Function to fetch GitHub repo data
 const fetchGitHubStats = async () => {
     try {
-        const repo = 'Popkiddevs/POPKID-XTECH'; // Replace with your repo
+        const repo = 'javiel632/ANGEL_MD'; // Replace with your repo
         const response = await axios.get(`https://api.github.com/repos/${repo}`);
         const forks = response.data.forks_count;
         const stars = response.data.stargazers_count;
