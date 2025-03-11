@@ -91,7 +91,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
 ┌════════════════⊷
 ┊♲╭─────────────
-┊♲┊ *Bot name :* ᴘᴏᴘᴋɪᴅ xʙᴏᴛ
+┊♲┊ *Bot name :* ANGLE-MD
 ┊♲┊ *User:*  ${nomAuteurMessage}  
 ┊♲┊ *Time :*  ${temps}
 ┊♲┊ *Date :* ${date} 
@@ -100,7 +100,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ╰═════════════════⊷`;
 
     let menuMsg =`
-> © 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗽𝗼𝗽𝗸𝗶𝗱\n${readmore} `;
+> © powered by javiel\n${readmore} `;
 
     // Sort categories alphabetically and generate menu
     const sortedCategories = Object.keys(coms).sort();
@@ -124,7 +124,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     }
 
     menuMsg += `
-> © 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗽𝗼𝗽𝗸𝗶𝗱🧊`;
+> © powered by javiel`;
 
     
     try {
@@ -134,10 +134,10 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
                 mentionedJid: [nomAuteurMessage],
                showAdAttribution: true,
                 externalAdReply: {
-                    title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐗𝐁𝐎𝐓",
+                    title: "ANGLE-MD",
                     body: "ᴛᴀᴘ ʜᴇʀᴇ ᴛᴏ ғᴏʟʟᴏᴡ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ",
-                    thumbnailUrl: "https://files.catbox.moe/w5xf3f.jpg",
-                    sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
+                    thumbnailUrl: "https://i.ibb.co/2bKqBWy/images-19.jpg",
+                    sourceUrl: 'https://whatsapp.com/channel/0029Vb4gdvmC6ZvcBXmSGz1e',
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
@@ -196,7 +196,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 
 ┌════════════════⊷
 ┊✣╭─────────────
-┊✣┊ *Bot name :* ᴘᴏᴘᴋɪᴅ xʙᴏᴛ
+┊✣┊ *Bot name :* ANGLE-MD
 ┊✣┊ *User:*  ${nomAuteurMessage}  
 ┊✣┊ *Time :*  ${temps}
 ┊✣┊ *Date :* ${date} 
@@ -205,7 +205,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ╰═════════════════⊷`;
 
     let menuMsg =`
-> © 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗽𝗼𝗽𝗸𝗶𝗱\n${readmore} `;
+> © powered by javiel\n${readmore} `;
 
     // Sort categories alphabetically and generate menu
     const sortedCategories = Object.keys(coms).sort();
@@ -229,7 +229,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
     }
 
     menuMsg += `
-> © 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗽𝗼𝗽𝗸𝗶𝗱🧊`;
+> © powered by javiel`;
 
    try {
         await zk.sendMessage(dest, { 
@@ -240,8 +240,8 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
                 externalAdReply: {
                     title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐗𝐁𝐎𝐓",
                     body: "ᴛᴀᴘ ʜᴇʀᴇ ᴛᴏ ғᴏʟʟᴏᴡ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ",
-                    thumbnailUrl: "https://files.catbox.moe/w5xf3f.jpg",
-                    sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
+                    thumbnailUrl: "https://i.ibb.co/2bKqBWy/images-19.jpg",
+                    sourceUrl: 'https://whatsapp.com/channel/0029Vb4gdvmC6ZvcBXmSGz1e',
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
