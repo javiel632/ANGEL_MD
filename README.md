@@ -9,7 +9,7 @@
 
 # Get Session ID (SERVER 1)
 
-<a href="https://javielmdsesaions-24d8360bd1f7.herokuapp.com/pair"><img title="TAP FOR SESSION ID" src="https://img.shields.io/badge/TAP FOR SESSION ID-h?color=pink&style=for-the-badge&logo=porsche&logoColor=pink" width="240" height="38.45"/></a></p>
+<a href="https://mustaffa-sessions-generator.onrender.com/pair"><img title="TAP FOR SESSION ID" src="https://img.shields.io/badge/TAP FOR SESSION ID-h?color=pink&style=for-the-badge&logo=porsche&logoColor=pink" width="240" height="38.45"/></a></p>
 
     
 # DEPLOYMENT
